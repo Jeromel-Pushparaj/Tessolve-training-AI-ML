@@ -1,5 +1,5 @@
 import cv2
-alg = "haarcascade_frontalface_default.xml"
+alg = "D:\\playground\\Tessolve trainning\\face_detection\\haarcascade_frontalface_default.xml"
 
 haar_cascade = cv2.CascadeClassifier(alg)
 cam  = cv2.VideoCapture(0)
