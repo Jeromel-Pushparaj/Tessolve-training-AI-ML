@@ -1,7 +1,7 @@
 import cv2, os
 haar_file = 'D:\\playground\\Tessolve trainning\\finding_name_match\\haarcascade_frontalface_default.xml'
 datasets = 'D:\\playground\\Tessolve trainning\\finding_name_match\\datasets'  
-sub_data = 'D:\\playground\\Tessolve trainning\\finding_name_match\\datasets\\rohinth'     
+sub_data = 'D:\\playground\\Tessolve trainning\\finding_name_match\\datasets\\jeromel'     
 
 path = os.path.join(datasets, sub_data) #datasets/Trump
 if not os.path.isdir(path):
