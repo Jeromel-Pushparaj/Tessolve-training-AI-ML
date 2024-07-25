@@ -1,7 +1,7 @@
 import cv2
 import imutils
 
-img = cv2.imread('dodge.jpg')
+img = cv2.imread('D:\\playground\\Tessolve trainning\\imgs\\tigger.jpg')
 rs = imutils.resize(img, width=50)
 cv2.imshow('oriimg', img)
 cv2.imshow('rs.jpeg',rs)

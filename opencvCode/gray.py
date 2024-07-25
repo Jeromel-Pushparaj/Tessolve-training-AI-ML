@@ -1,5 +1,5 @@
 import cv2
-image = cv2.imread("imgs\\parrot.jpg")
+image = cv2.imread("D:\\playground\\Tessolve trainning\\imgs\\parrot.jpg")
 g = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 cv2.imshow('original', image)
 cv2.imshow('Gray', g)

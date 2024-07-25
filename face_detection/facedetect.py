@@ -7,9 +7,9 @@ cam  = cv2.VideoCapture(0)
 while True:
     _,img = cam.read()
     grayImg = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-    face = haar_cascade.detectMultiScale(grayImg,1.3,4)
+    face = haar_cascade.detectMultiScale(grayImg,1.3,5)
     for (x,y,w,h) in face:
-        cv2.rectangle(img,(x,y), (x+w,y+h), (235,20,0),5)
+        #cv2.rectangle(img,(x,y), (x+w,y+h), (235,20,0),3)
         center_x = int(x + w // 2)
         center_y = int(y + h // 2)
         radius = int(min(w // 2, h // 2))
@@ -18,5 +18,5 @@ while True:
     key = cv2.waitKey(10)
     if key == 27:
         break
-cam.release()
+cam.release(10000)
 cv2.destroyAllWindows()
