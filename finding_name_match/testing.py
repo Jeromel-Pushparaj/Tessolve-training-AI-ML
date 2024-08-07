@@ -2,7 +2,7 @@ import cv2, numpy, os
 
 haar_file = 'D:\\playground\\Tessolve trainning\\finding_name_match\\haarcascade_frontalface_default.xml'
 datasets = 'D:\\playground\\Tessolve trainning\\finding_name_match\\datasets'
-print('Training...')
+# print('Training...')
 (images, labels, names, id) = ([], [], {}, 0) #{Elon : 0},{Ramesh : 1}
 for (subdirs, dirs, files) in os.walk(datasets):
     for subdir in dirs:
@@ -30,7 +30,8 @@ face_cascade = cv2.CascadeClassifier(haar_file)
 
 webcam = cv2.VideoCapture(0)
 cnt=0
-while True:
+stay = True
+while stay:
     (_, im) = webcam.read()
     gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY) #converting gray scale
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
@@ -43,7 +44,13 @@ while True:
         cv2.rectangle(im, (x, y), (x + w, y + h), (0, 255, 0), 3)
         if prediction[1]<800:
             cv2.putText(im,'%s - %.0f' % (names[prediction[0]],prediction[1]),(x-10, y-10), cv2.FONT_HERSHEY_COMPLEX,1,(51, 255, 255))
-            print (names[prediction[0]])
+            # print (names[prediction[0]])
+            val = names[prediction[0]]
+            if val == 'jeromel':
+                print("Door-Unlocked")
+                stay = False
+            else:
+                print("Door-stay-Locked")
             cnt=0
         else:
             cnt+=1
