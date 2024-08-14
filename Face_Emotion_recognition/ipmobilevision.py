@@ -10,7 +10,7 @@ import imutils
 
 er=EmotionRecognition (device='cpu')
 
-url='http://192.168.137.229:8080/shot.jpg'
+url='http://192.168.1.4:8080/shot.jpg'
 
 while True:
 

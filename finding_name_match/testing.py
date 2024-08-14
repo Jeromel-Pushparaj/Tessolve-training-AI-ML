@@ -1,4 +1,5 @@
 import cv2, numpy, os
+from datetime import date
 
 haar_file = 'D:\\playground\\Tessolve trainning\\finding_name_match\\haarcascade_frontalface_default.xml'
 datasets = 'D:\\playground\\Tessolve trainning\\finding_name_match\\datasets'
@@ -31,6 +32,12 @@ face_cascade = cv2.CascadeClassifier(haar_file)
 webcam = cv2.VideoCapture(0)
 cnt=0
 stay = True
+students = {
+    'jeromel':['1122104018', 'Computer Science Engineering', 'IIIrd year'],
+    'rohinth':['1122104041', 'Computer Science Engineering', 'IIIrd year']
+}
+
+attendence_log = []
 while stay:
     (_, im) = webcam.read()
     gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY) #converting gray scale
@@ -47,7 +54,11 @@ while stay:
             # print (names[prediction[0]])
             val = names[prediction[0]]
             if val == 'jeromel':
-                print("Door-Unlocked")
+                # print("Door-Unlocked")
+                print(f"Name: Jeromel Pushparaj\n RollNo: {students['jeromel'][0]} \n Dept: {students['jeromel'][1]}\n Year: {students['jeromel'][2]}\n attendance loged")
+                attendence_log.append(students['jeromel'])
+                current_date = date.today()
+                print(f"Today's Attendance Log: {current_date}\n", attendence_log)
                 stay = False
             else:
                 print("Door-stay-Locked")
