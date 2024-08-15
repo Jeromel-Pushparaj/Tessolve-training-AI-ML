@@ -34,7 +34,7 @@ cnt=0
 stay = True
 students = {
     'jeromel':['1122104018', 'Computer Science Engineering', 'IIIrd year'],
-    'rohinth':['1122104041', 'Computer Science Engineering', 'IIIrd year']
+    'thorphin':['1122104041', 'Computer Science Engineering', 'IIIrd year']
 }
 
 attendence_log = []
@@ -57,6 +57,13 @@ while stay:
                 # print("Door-Unlocked")
                 print(f"Name: Jeromel Pushparaj\n RollNo: {students['jeromel'][0]} \n Dept: {students['jeromel'][1]}\n Year: {students['jeromel'][2]}\n attendance loged")
                 attendence_log.append(students['jeromel'])
+                current_date = date.today()
+                print(f"Today's Attendance Log: {current_date}\n", attendence_log)
+                stay = False
+            elif val == 'thorphin':
+                # print("Door-Unlocked")
+                print(f"Name: Thorphin\n RollNo: {students['thorphin'][0]} \n Dept: {students['thorphin'][1]}\n Year: {students['thorphin'][2]}\n attendance loged")
+                attendence_log.append(students['thorphin'])
                 current_date = date.today()
                 print(f"Today's Attendance Log: {current_date}\n", attendence_log)
                 stay = False
