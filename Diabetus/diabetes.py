@@ -2,7 +2,7 @@
 import numpy as np 
 import pickle 
 import streamlit as st 
-
+# venv\Scripts\activate.bat
 # Loading the saved model 
 loaded_model = pickle.load(open('diabetes_model.sav', 'rb')) 
 
