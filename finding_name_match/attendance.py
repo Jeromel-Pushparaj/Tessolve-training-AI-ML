@@ -2,8 +2,8 @@ import cv2, numpy, os
 from datetime import datetime
 
 # Path to Haar Cascade XML file
-haar_file = 'D:\\playground\\Tessolve trainning\\finding_name_match\\haarcascade_frontalface_default.xml'
-datasets = 'D:\\playground\\Tessolve trainning\\finding_name_match\\datasets'
+haar_file = 'D:\\playground\\Tessolvetrainning\\finding_name_match\\haarcascade_frontalface_default.xml'
+datasets = 'D:\\playground\\Tessolvetrainning\\finding_name_match\\datasets'
 
 # Initialize variables
 (images, labels, names, id) = ([], [], {}, 0)

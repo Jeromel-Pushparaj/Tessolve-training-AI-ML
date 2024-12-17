@@ -1,5 +1,5 @@
 import cv2
-img=cv2.imread('D:\\playground\\Tessolve trainning\\imgs\\car image.jpg')
+img=cv2.imread(r'D:\playground\Tessolvetrainning\imgs\tigger.jpg')
 gm=cv2.GaussianBlur(img,(41,41),0)
 
 cv2.imshow("org",img)

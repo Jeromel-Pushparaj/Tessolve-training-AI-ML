@@ -10,10 +10,8 @@ loaded_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
 def diabetes_prediction(input_data): 
 
-	# Changing the data into a NumPy array 
+	
 	input_data_as_nparray = np.asarray(input_data) 
-
-	# Reshaping the data since there is only one instance 
 	input_data_reshaped = input_data_as_nparray.reshape(1, -1) 
 
 	prediction = loaded_model.predict(input_data_reshaped) 
@@ -25,10 +23,10 @@ def diabetes_prediction(input_data):
 
 def main(): 
 
-	# Giving a title 
+	 
 	st.title('Diabetes Prediction Web App') 
 
-	# Getting input from the user 
+	 
 	Pregnancies = st.text_input('No. of Pregnancies:') 
 	Glucose = st.text_input('Glucose level:') 
 	BloodPressure = st.text_input('Blood Pressure value:') 
@@ -39,10 +37,10 @@ def main():
 		'Diabetes pedigree function value:') 
 	Age = st.text_input('Age:') 
 
-	# Code for prediction 
+	 
 	diagnosis = '' 
 
-	# Making a button for prediction 
+	 
 	if st.button('Predict'): 
 		diagnosis = diabetes_prediction( 
 			[Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]) 
@@ -52,3 +50,5 @@ def main():
 if __name__ == '__main__': 
 	main()
 
+#python -m streamlit run diabetes.py
+#pip install scikit-learn

@@ -11,7 +11,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 # Load your pre-trained emotion recognition model
-model = tf.keras.models.load_model(r'D:\audiospeech (2)\audiospeech\emotion_recognition_model.keras')
+model = tf.keras.models.load_model(r"D:\playground\Tessolvetrainning\audiospeech (2)\audiospeech\emotion_recognition_model.keras")
 
 # Define your labels
 labels = ['happy', 'angry', 'neutral']  # Update this based on your trained labels

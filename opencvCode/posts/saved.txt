@@ -1,0 +1,125 @@
+Company: Wipro Technologies Ltd
+Location: None
+Skills: software design
+Link: https://www.timesjobs.com/job-detail/python-wipro-technologies-ltd-hyderabad-secunderabad-3-to-5-yrs-jobid-vItQd77S__PLUS__v1zpSvf__PLUS__uAgZw==&source=srp
+
+Company: Peopleplease Consulting
+Location: None
+Skills: Python
+Link: https://www.timesjobs.com/job-detail/python-developer-python-python-full-stack-client-of-peopleplease-mumbai-1-to-5-yrs-jobid-y1n0aQVsGtFzpSvf__PLUS__uAgZw==&source=srp
+
+Company: east india securities ltd.
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-engineer-east-india-securities-ltd-kolkata-2-to-5-yrs-jobid-AoNKFWTxLYxzpSvf__PLUS__uAgZw==&source=srp
+
+Company: CONNECTING 2 WORK
+Location: None
+Skills: rest
+Link: https://www.timesjobs.com/job-detail/python-trainer-connecting-2-work-calicut-kozhikode-0-to-3-yrs-jobid-Z__PLUS__uCQzJQBSxzpSvf__PLUS__uAgZw==&source=srp
+
+Company: SEVEN CONSULTANCY
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-developer-seven-consultancy-navi-mumbai-mumbai-4-to-7-yrs-jobid-VJ3GBkmUwLVzpSvf__PLUS__uAgZw==&source=srp
+
+Company: DREAMAJAX TECHNOLOGIES
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-developer-dreamajax-technologies-bengaluru-bangalore-4-to-7-yrs-jobid-QP62Nb779jFzpSvf__PLUS__uAgZw==&source=srp
+
+Company: Datagrid Solutions
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-developer-datagrid-solutions-mumbai-2-to-3-yrs-jobid-WOb3ZI4H4nVzpSvf__PLUS__uAgZw==&source=srp
+
+Company: InnOvator Web Solutions Pvt.Ltd.
+Location: None
+Skills: rest
+Link: https://www.timesjobs.com/job-detail/python-developer-innovator-web-solutions-pvt-ltd-mumbai-5-to-8-yrs-jobid-xW9AZzv9Ek5zpSvf__PLUS__uAgZw==&source=srp
+
+Company: CONNECTING 2 WORK
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-developer-connecting-2-work-thiruvananthapuram-5-to-10-yrs-jobid-rWXOEDNUju5zpSvf__PLUS__uAgZw==&source=srp
+
+Company: CONNECTING 2 WORK
+Location: None
+Skills: database
+Link: https://www.timesjobs.com/job-detail/python-developer-connecting-2-work-cochin-kochi-ernakulam-2-to-3-yrs-jobid-p__SLASH__ne4OsY9tNzpSvf__PLUS__uAgZw==&source=srp
+
+Company: SEVEN CONSULTANCY
+Location: None
+Skills: Python programming
+Link: https://www.timesjobs.com/job-detail/python-developer-seven-consultancy-surat-9-to-12-yrs-jobid-Kdex__PLUS__SlZxqJzpSvf__PLUS__uAgZw==&source=srp
+
+Company: 3RI Technologies Pvt Ltd
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-programmer-3ri-technologies-pvt-ltd-pune-0-to-1-yrs-jobid-RisAg8NKGbBzpSvf__PLUS__uAgZw==&source=srp
+
+Company: 3RI Technologies Pvt Ltd
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-developer-3ri-technologies-pvt-ltd-pune-0-to-1-yrs-jobid-W8__SLASH__axd9w6ixzpSvf__PLUS__uAgZw==&source=srp
+
+Company: young minds technology solutions pvt ltd
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-developer-young-minds-technology-solutions-pvt-ltd-tirupati-0-to-3-yrs-jobid-rhQUq1Z7fatzpSvf__PLUS__uAgZw==&source=srp
+
+Company: DealsCorner
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-developer-dealscorner-ahmedabad-1-to-4-yrs-jobid-hTihN4iwnitzpSvf__PLUS__uAgZw==&source=srp
+
+Company: AxisTechnolabs
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-odoo-axistechnolabs-ahmedabad-0-to-1-yrs-jobid-sQ9JqHz7dglzpSvf__PLUS__uAgZw==&source=srp
+
+Company: Wing Global IT Services
+Location: None
+Skills: spring boot
+Link: https://www.timesjobs.com/job-detail/python-developer-wing-global-it-services-panchkula-2-to-5-yrs-jobid-ZNzjSAvv9uJzpSvf__PLUS__uAgZw==&source=srp
+
+Company: CONNECTING 2 WORK
+Location: None
+Skills: security compliance
+Link: https://www.timesjobs.com/job-detail/python-developer-connecting-2-work-thiruvananthapuram-0-to-3-yrs-jobid-8rfk7VC5R71zpSvf__PLUS__uAgZw==&source=srp
+
+Company: CONNECTING 2 WORK
+Location: None
+Skills: security compliance
+Link: https://www.timesjobs.com/job-detail/python-developer-connecting-2-work-cochin-kochi-ernakulam-0-to-3-yrs-jobid-H6kmUA8Jl55zpSvf__PLUS__uAgZw==&source=srp
+
+Company: Squareboat
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-developer-squareboat-gurgaon-1-to-4-yrs-jobid-bSPDhIQRYwpzpSvf__PLUS__uAgZw==&source=srp
+
+Company: tataatsu idealabs pvt. ltd.
+Location: None
+Skills: oop
+Link: https://www.timesjobs.com/job-detail/python-developer-tataatsu-idealabs-pvt-ltd-bengaluru-bangalore-1-to-3-yrs-jobid-S5XtOGDDD0RzpSvf__PLUS__uAgZw==&source=srp
+
+Company: Parahit Technologies Limited
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-developer-parahit-technologies-limited-delhi-0-to-3-yrs-jobid-j6NKVNIrw0hzpSvf__PLUS__uAgZw==&source=srp
+
+Company: LAKSH HUMAN RESOURCE
+Location: None
+Skills: rest
+Link: https://www.timesjobs.com/job-detail/python-developer-laksh-human-resource-mumbai-1-to-3-yrs-jobid-ak3vdW639qBzpSvf__PLUS__uAgZw==&source=srp
+
+Company: NuageBiz.Tech
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-developer-nuagebiz-tech-noida-greater-noida-2-to-5-yrs-jobid-Rk4Kq2mA7LdzpSvf__PLUS__uAgZw==&source=srp
+
+Company: AxisTechnolabs
+Location: None
+Skills: python
+Link: https://www.timesjobs.com/job-detail/python-developer-axistechnolabs-ahmedabad-0-to-1-yrs-jobid-oQxb__SLASH__TVWjxlzpSvf__PLUS__uAgZw==&source=srp
+

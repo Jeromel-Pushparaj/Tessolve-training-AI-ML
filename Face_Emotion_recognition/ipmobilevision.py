@@ -1,11 +1,7 @@
 from facial_emotion_recognition import EmotionRecognition
-
 import urllib.request
-
 import cv2
-
 import numpy as np
-
 import imutils
 
 er=EmotionRecognition (device='cpu')

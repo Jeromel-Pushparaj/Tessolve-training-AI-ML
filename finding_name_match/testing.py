@@ -1,8 +1,8 @@
 import cv2, numpy, os
 from datetime import date
 
-haar_file = 'D:\\playground\\Tessolve trainning\\finding_name_match\\haarcascade_frontalface_default.xml'
-datasets = 'D:\\playground\\Tessolve trainning\\finding_name_match\\datasets'
+haar_file = 'D:\\playground\\Tessolvetrainning\\finding_name_match\\haarcascade_frontalface_default.xml'
+datasets = 'D:\\playground\\Tessolvetrainning\\finding_name_match\\datasets'
 # print('Training...')
 (images, labels, names, id) = ([], [], {}, 0) #{Elon : 0},{Ramesh : 1}
 for (subdirs, dirs, files) in os.walk(datasets):
@@ -33,8 +33,9 @@ webcam = cv2.VideoCapture(0)
 cnt=0
 stay = True
 students = {
-    'jeromel':['1122104018', 'Computer Science Engineering', 'IIIrd year'],
-    'thorphin':['1122104041', 'Computer Science Engineering', 'IIIrd year']
+    'jeromel':['1122104018', 'Computer Science Engineering'],
+    'thorphin':['1122104041', 'Computer Science Engineering'],
+    'pushparaj':['1122104043', 'Computer Science Engineering'],    
 }
 
 attendence_log = []
@@ -51,24 +52,26 @@ while stay:
         cv2.rectangle(im, (x, y), (x + w, y + h), (0, 255, 0), 3)
         if prediction[1]<800:
             cv2.putText(im,'%s - %.0f' % (names[prediction[0]],prediction[1]),(x-10, y-10), cv2.FONT_HERSHEY_COMPLEX,1,(51, 255, 255))
-            # print (names[prediction[0]])
             val = names[prediction[0]]
             if val == 'jeromel':
-                # print("Door-Unlocked")
-                print(f"Name: Jeromel Pushparaj\n RollNo: {students['jeromel'][0]} \n Dept: {students['jeromel'][1]}\n Year: {students['jeromel'][2]}\n attendance loged")
+                print(f"Name: Jeromel Pushparaj\n RollNo: {students['jeromel'][0]} \n Dept: {students['jeromel'][1]}\n  attendance loged")
                 attendence_log.append(students['jeromel'])
                 current_date = date.today()
                 print(f"Today's Attendance Log: {current_date}\n", attendence_log)
                 stay = False
             elif val == 'thorphin':
-                # print("Door-Unlocked")
-                print(f"Name: Thorphin\n RollNo: {students['thorphin'][0]} \n Dept: {students['thorphin'][1]}\n Year: {students['thorphin'][2]}\n attendance loged")
+                print(f"Name: Thorphin\n RollNo: {students['thorphin'][0]} \n Dept: {students['thorphin'][1]}\n  attendance loged")
                 attendence_log.append(students['thorphin'])
                 current_date = date.today()
                 print(f"Today's Attendance Log: {current_date}\n", attendence_log)
                 stay = False
-            else:
-                print("Door-stay-Locked")
+            elif val == 'pushparaj':
+                print(f"Name: pushparaj\n RollNo: {students['pushparaj'][0]} \n Dept: {students['pushparaj'][1]}\n  attendance loged")
+                attendence_log.append(students['pushparaj'])
+                current_date = date.today()
+                print(f"Today's Attendance Log: {current_date}\n", attendence_log)
+                stay = False
+
             cnt=0
         else:
             cnt+=1

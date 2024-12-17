@@ -1,8 +1,8 @@
 import imutils #Resize
 import cv2
 import time
-redLower = (46, 68, 114)
-redUpper = (99, 255, 255)
+redLower = (0,98 , 151)
+redUpper = (179, 252, 255)
 
 camera=cv2.VideoCapture(0) #Cam Ini
 time.sleep(3)
